@@ -1,0 +1,20 @@
+title: Aakash's Blog
+description: Personal blog and portfolio site
+author: Aakash
+url: "https://aakashh242.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
