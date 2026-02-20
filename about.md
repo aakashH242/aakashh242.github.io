@@ -12,6 +12,6 @@ At present, I am working on building my solutions for the gaps and pain points I
 
 I also help early-founders, marketers and product owners build and productionize their projects.
 
-I prefer `Tabs` over `spaces`. :P
+I prefer `tabs` over `spaces`. They just take lesser keystrokes. :P
 
 Here, I shall share my technical notes, projects, and experiments.
