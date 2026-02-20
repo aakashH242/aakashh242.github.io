@@ -4,14 +4,14 @@ title: About
 permalink: /about/
 ---
 
-# About Me
+I am an engineer with a bachelor’s degree in Computer Science and Engineering.
 
-Hi, I'm Aakash! This is my personal website where I share my thoughts, projects, and experiences.
+I’ve worked in IT services MNCs for 10+ years, mainly on backend development, devops, API platforms, platform engineering and generative AI.
 
-## What I Do
+At present, I am working on building my solutions for the gaps and pain points I faced.  
 
-I'm passionate about technology and learning. This blog is a space where I document my journey and share knowledge with others.
+I also help early-founders, marketers and product owners build and productionize their projects.
 
-## Get in Touch
+I prefer `Tabs` over `spaces`. :P
 
-Feel free to connect with me through GitHub or other social platforms!
+Here, I shall share my technical notes, projects, and experiments.

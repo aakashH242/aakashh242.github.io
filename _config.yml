@@ -12,6 +12,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+header_pages:
+  - about.md
+
 # Exclude from processing
 exclude:
   - Gemfile
