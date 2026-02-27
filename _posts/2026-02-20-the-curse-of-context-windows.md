@@ -2,7 +2,7 @@
 layout: post
 title: "The curse of context windows"
 date: February 20, 2026
-categories: blog
+categories: [blog]
 ---
 
 > **TL;DR**: Large-document extraction with LLMs fails less from “bad reasoning” and more from hard output limits. JSON structured outputs waste tokens on repeated keys and still truncate on big PDFs. Switching to CSV reduces overhead but doesn’t fix truncation—your output can still cut off silently. The reliable fix is chunking the document into page batches, processing chunks asynchronously with strict concurrency limits (semaphores), and stitching results back in order; run summarization as a separate pass.

@@ -2,7 +2,7 @@
 layout: post
 title: "A skill issue"
 date: February 27, 2026
-categories: blog
+categories: [blog]
 ---
 
 > TL;DR: LLMs can accelerate development dramatically, but they also widen the ownership gap if you don’t understand your system deeply. Without discipline, agents tend to duplicate logic, bloat control files, and create subtle technical debt. Tooling like persistent “skills” helps, but clean architecture is still a developer responsibility.
