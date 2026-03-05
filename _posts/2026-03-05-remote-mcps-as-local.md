@@ -5,7 +5,7 @@ date: March 05, 2026
 categories: [blog]
 ---
 
-> **TLDR;** Check out [remote-mcp-adapter](htts://github.com/aakashh242/remote-mcp-adapter) which provides stateful proxies for upstream MCP servers and handles the file exchange interaction with "file-touching" tools.
+> **TLDR;** Check out [remote-mcp-adapter](https://github.com/aakashh242/remote-mcp-adapter) which provides stateful proxies for upstream MCP servers and handles the file exchange interaction with "file-touching" tools.
 
 Recently, a use-case came along where we were tasked with hosting a central MCP platform. The idea was to bring all MCP
 servers under a common umbrella, apply guardrails and governance on them and make it the go-to place for all things
@@ -34,7 +34,7 @@ the agents. However, file uploads require special handling too as the MCP specif
 
 I initially wrote a wrapper that acted as a proxy between the agent and the Playwright MCP server but pretty soon, need
 arose to host many more of these types of "file-touching" MCP servers centrally. As a result, instead of writing separate
-proxies for each, I wrote the [remote-mcp-adapter](htts://github.com/aakashh242/remote-mcp-adapter) which provides
+proxies for each, I wrote the [remote-mcp-adapter](https://github.com/aakashh242/remote-mcp-adapter) which provides
 stateful proxies for upstream MCP servers and handles the file exchange interaction with "file-touching" tools.
 
 Being a consumer of opensource, I am hopeful it will be beneficial to the community.
