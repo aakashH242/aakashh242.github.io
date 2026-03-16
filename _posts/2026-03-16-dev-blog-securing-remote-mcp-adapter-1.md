@@ -5,6 +5,8 @@ date: March 16, 2026
 categories: [blog]
 ---
 
+> **TL;DR:** I built Remote MCP Adapter to solve remote file and artifact handling. Then I realized the same adapter could also be abused unless it actively defends against poisoned tool metadata and session misuse. So v0.3.0 is about turning that middleware into a safer boundary, not just a convenient one.
+
 After finishing off the core work for the [Remote MCP Adapter](https://github.com/aakashh242/remote-mcp-adapter), I took
 a step back and started sharing it in forums to see how others are solving the same issue. You can read more about the
 inspiration behind it in [this blog](2026-03-05-remote-mcps-as-local.md).
