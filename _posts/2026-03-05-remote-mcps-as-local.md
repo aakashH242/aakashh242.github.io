@@ -16,7 +16,7 @@ we could push teams to use the org-approved MCP platform.
 ## The problem
 
 Although mainly built for local usage, most MCP servers did implement the Streamable HTTP protocol, allowing them to
-be hosted remotely. We did not run into much hiccups till we got around to adding servers that work with files -
+be hosted remotely. We did not run into many hiccups till we got around to adding servers that work with files -
 either consume or produce them. An example is the [Playwright MCP](https://github.com/microsoft/playwright-mcp) server
 that can produce artifacts in the form of console logs, screenshots, saved PDFs and consume local files for browser
 uploads.

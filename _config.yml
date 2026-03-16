@@ -4,18 +4,17 @@ author: Aakash
 url: "https://aakashh242.github.io"
 baseurl: ""
 
-# Build settings
 markdown: kramdown
 theme: minima
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 header_pages:
   - about.md
 
-# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
