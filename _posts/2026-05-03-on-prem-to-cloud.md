@@ -5,6 +5,8 @@ date: May 03, 2026
 categories: [blog]
 ---
 
+> Moving from on-prem to cloud changed the tooling, speed, and scaling model, but not the core laws of systems design. Capacity, latency, state, failure handling, and topology still matter just as much. Microservices can help, but only when they solve a real scaling or operational problem instead of just moving complexity around.
+
 A recent conversation with [Raymond Oyondi](https://peerlist.io/raymondoyondi) on Peerlist made me rack my memories a bit and reflect on how much software and infrastructure have changed over the years.
 
 I joined the industry back when cloud still felt more like a concept than a default. A lot of systems were still being built and maintained in environments where the infrastructure was very much in your hands. You knew the machines, the network, the limits, the weak points. If something needed scaling, it was not a button click and a dashboard graph. It meant spinning up another server, configuring it, wiring it into the network and load balancer, deploying the application, syncing state, setting up monitoring, and making sure the whole thing did not fall apart under pressure. We had automation in places, of course, but nowhere near the kind of convenience people now take for granted.
