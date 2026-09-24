@@ -48,10 +48,6 @@ punctuation soup. Not "the model missed a sentence" bad. More like "the context 
 
 For example, this kind of output is not useful provenance:
 
-```
-### 3aching reduces and. latency##
-```
-
 Neither is this:
 ```
 `{-3 "_ ],
